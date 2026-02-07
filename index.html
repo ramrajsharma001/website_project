@@ -1,150 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Ramraj Sharma - Portfolio Monitoring and Analytics professional." />
-  <title>Ramraj Sharma | Portfolio Monitoring & Analytics</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ramraj Sharma - Portfolio Monitoring and Analytics professional focused on private credit, KPI frameworks, and data-driven portfolio performance improvement.">
+    <meta name="keywords" content="Portfolio Monitoring, Portfolio Analytics, Private Credit, KPI Reporting, Financial Analysis, MBA">
+    <meta name="author" content="Ramraj Sharma">
+    <title>Ramraj Sharma | Portfolio Monitoring & Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container nav-inner">
-      <a class="brand" href="#home">Ramraj Sharma</a>
-      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-      <ul id="navMenu" class="nav-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#focus">Focus</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <header id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-text">
-        <p class="kicker">Portfolio Monitoring & Analytics</p>
-        <h1>Ramraj Sharma</h1>
-        <p class="subtitle">MBA Candidate at UNC Kenan-Flagler | Private Credit, FP&A, and Performance Analytics</p>
-        <div class="hero-actions">
-          <a class="btn btn-light" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Resume</a>
-          <a class="btn btn-outline" href="https://www.linkedin.com/in/ramraj-ronil-sharma" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a class="btn btn-outline" href="mailto:ramraj_sharma@kenanflagler.unc.edu"><i class="fas fa-envelope"></i> Email</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">Ramraj Sharma</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </div>
-      <img class="profile" src="assets/images/profile.jpg?v=20260207b" alt="Ramraj Sharma" />
-    </div>
-  </header>
+    </nav>
 
-  <main>
-    <section id="about" class="section light">
-      <div class="container narrow">
-        <h2>About</h2>
-        <p>
-          I build portfolio monitoring systems that help investment teams identify risk early and act faster.
-          At Plexus Capital, I support KPI and covenant workflows, monthly reporting automation, and operating performance diagnostics
-          across portfolio companies.
-        </p>
-      </div>
-    </section>
+    <main id="main-content">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Ramraj Sharma</h1>
+                    <p class="hero-subtitle">Portfolio Monitoring & Analytics | Private Credit | FP&A</p>
+                    <p class="hero-affiliation">MBA Candidate, UNC Kenan-Flagler Business School</p>
+                    <div class="hero-links">
+                        <a href="https://www.linkedin.com/in/ramraj-ronil-sharma" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:ramraj_sharma@kenanflagler.unc.edu" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i> Resume
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-chart-line"></i> Case Projects
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/images/profile.jpg?v=20260207" alt="Ramraj Sharma" class="profile-image">
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
 
-    <section id="focus" class="section split">
-      <div class="container grid-2">
-        <article class="panel">
-          <h3>What I Focus On</h3>
-          <ul>
-            <li>KPI and covenant tracking at portfolio scale</li>
-            <li>Budget vs. actual variance analysis</li>
-            <li>Performance and EBITDA diagnostics</li>
-            <li>13-week cash flow visibility</li>
-            <li>Decision-ready fund reporting</li>
-          </ul>
-        </article>
-        <article class="panel">
-          <h3>Selected Outcomes</h3>
-          <ul>
-            <li><strong>72</strong> portfolio companies monitored with standardized workflows</li>
-            <li><strong>40%</strong> reduction in monthly reporting cycle time</li>
-            <li><strong>$50M+</strong> EBITDA opportunity identified across 7 companies</li>
-            <li><strong>~$45M</strong> add-on transactions supported</li>
-          </ul>
-        </article>
-      </div>
-    </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I am a finance professional focused on portfolio monitoring and analytics, with experience across private credit, valuation, and operating performance improvement.
+                        At Plexus Capital, I support portfolio performance tracking, covenant/KPI workflows, and decision support for investment and operating teams.
+                    </p>
+                    <p>
+                        I bring a blend of investor-side discipline and operator-side execution from co-founding and scaling a business. My work centers on translating complex datasets into clear performance signals,
+                        identifying risk early, and building reporting systems that make portfolio decisions faster and more reliable.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <section id="tools" class="section light">
-      <div class="container">
-        <h2>Tools & Platforms</h2>
-        <p class="lead">Some tools and platforms I have experience working on.</p>
-        <div class="chips">
-          <span>Excel</span><span>Power Query</span><span>Power BI</span><span>SQL</span><span>Python</span><span>Tableau</span><span>Snowflake</span><span>Salesforce</span><span>Capital IQ</span>
+        <section class="featured-publication" id="featured">
+            <div class="container">
+                <h2 class="section-title">Featured Portfolio Impact</h2>
+                <div class="publication-featured-card">
+                    <div class="publication-badge">
+                        <i class="fas fa-file-alt"></i> Portfolio Monitoring Focus
+                    </div>
+                    <h3 class="featured-pub-title">KPI & Covenant Monitoring Automation Across Portfolio Companies</h3>
+                    <p class="featured-pub-authors"><strong>Ramraj Sharma</strong> | Portfolio Monitoring Intern, Plexus Capital</p>
+                    <p class="featured-pub-meta">
+                        <span><i class="fas fa-calendar"></i> June 2025 - Present</span>
+                        <span><i class="fas fa-building"></i> Lower middle market private credit fund</span>
+                    </p>
+                    <div class="featured-pub-abstract">
+                        <p>
+                            Standardized KPI and covenant tracking across 72 portfolio companies, reducing monthly reporting cycle time by 40% and improving management visibility into operating risks.
+                            Combined variance analysis, data consolidation, and dashboarding to improve performance diagnostics and support portfolio-level decision making.
+                        </p>
+                    </div>
+                    <div class="featured-pub-links">
+                        <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> View Full Resume
+                        </a>
+                        <a href="mailto:ramraj_sharma@kenanflagler.unc.edu" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Discuss Role Fit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Portfolio Analytics Case Projects</h2>
+                <p style="margin-bottom: 2rem; color: var(--text-secondary);">Representative projects aligned to portfolio monitoring and analytics responsibilities.</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-gauge-high"></i></div>
+                        <h3>Covenant & KPI Monitoring at Scale</h3>
+                        <p>Automated monitoring workflows across 72 portfolio companies to accelerate fund reporting.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-chart-column"></i></div>
+                        <h3>EBITDA Performance Diagnostics</h3>
+                        <p>Identified $50M+ EBITDA opportunities across 7 companies through variance and root-cause analysis.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-money-bill-trend-up"></i></div>
+                        <h3>13-Week Cash Flow Visibility</h3>
+                        <p>Built rolling cash flow monitoring logic to improve liquidity planning and reduce shortfall risk.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-diagram-project"></i></div>
+                        <h3>Add-on Acquisition Support</h3>
+                        <p>Supported two add-on deals (~$45M total) through modeling, benchmarking, and IC-ready materials.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="research-highlights" id="highlights">
+            <div class="container">
+                <h2 class="section-title">Monitoring & Analytics Highlights</h2>
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="card-icon"><i class="fas fa-list-check"></i></div>
+                        <h3>Portfolio Monitoring</h3>
+                        <p>Built consistent KPI and covenant frameworks that improved comparability and transparency across portfolio companies.</p>
+                        <a href="assets/resume.pdf" target="_blank" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="research-card">
+                        <div class="card-icon"><i class="fas fa-table"></i></div>
+                        <h3>Reporting Automation</h3>
+                        <p>Reduced cycle time and manual rework by consolidating multi-source operational and financial data into reusable workflows.</p>
+                        <a href="assets/resume.pdf" target="_blank" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="research-card">
+                        <div class="card-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3>Performance Diagnostics</h3>
+                        <p>Applied budget-vs-actual and cost-driver analysis to surface root causes and quantify improvement levers.</p>
+                        <a href="assets/resume.pdf" target="_blank" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="research-card">
+                        <div class="card-icon"><i class="fas fa-database"></i></div>
+                        <h3>Analytics Stack</h3>
+                        <p>Hands-on with Excel, Power Query, Power BI, SQL, Python, Tableau, and Snowflake for portfolio intelligence.</p>
+                        <a href="assets/resume.pdf" target="_blank" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="awards-section">
+            <div class="container">
+                <h2 class="section-title">Selected Achievements</h2>
+                <div class="awards-grid">
+                    <div class="award-card">
+                        <h4>40% Reporting Cycle Reduction</h4>
+                        <p>Reduced monthly reporting cycle through KPI and covenant automation workflows.</p>
+                    </div>
+                    <div class="award-card">
+                        <h4>$50M+ EBITDA Opportunity</h4>
+                        <p>Identified performance improvement opportunities across seven portfolio companies.</p>
+                    </div>
+                    <div class="award-card">
+                        <h4>~$45M Add-on Transactions Supported</h4>
+                        <p>Contributed to financial modeling and investment documentation for strategic add-on acquisitions.</p>
+                    </div>
+                    <div class="award-card">
+                        <h4>Full Tuition Merit Scholar</h4>
+                        <p>UNC Kenan-Flagler MBA, concentrations in Corporate Finance and analytics-focused coursework.</p>
+                    </div>
+                    <div class="award-card">
+                        <h4>CFA Level III Candidate</h4>
+                        <p>Completed Level I and II, strengthening investment and analytical rigor.</p>
+                    </div>
+                    <div class="award-card">
+                        <h4>Operator + Investor Perspective</h4>
+                        <p>Scaled business operations as co-founder and applied that lens to portfolio-level value creation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" id="contact">
+            <div class="container">
+                <h2>Open to Portfolio Monitoring & Analytics Opportunities</h2>
+                <p>I am actively exploring full-time opportunities in private credit portfolio analytics, portfolio operations, and performance reporting.</p>
+                <a href="mailto:ramraj_sharma@kenanflagler.unc.edu" class="btn btn-large">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Ramraj Sharma. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/ramraj-ronil-sharma" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:ramraj_sharma@kenanflagler.unc.edu"><i class="fas fa-envelope"></i></a>
+                    <a href="assets/resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <section id="work" class="section dark">
-      <div class="container">
-        <div class="work-head">
-          <h2>Experience Highlights</h2>
-          <div class="carousel-controls">
-            <button id="prevBtn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
-            <button id="nextBtn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
-          </div>
-        </div>
-        <div id="track" class="track">
-          <article class="work-card">
-            <h3>Plexus Capital, LLC</h3>
-            <p class="meta">Portfolio Monitoring Intern | Raleigh, NC | Jun 2025 - Present</p>
-            <p>Standardized KPI and covenant tracking across portfolio companies and improved visibility into operating risk.</p>
-          </article>
-          <article class="work-card">
-            <h3>Reporting Automation</h3>
-            <p class="meta">Fund & Portfolio Reporting</p>
-            <p>Reduced reporting cycle time by 40% with repeatable data workflows and dashboard-ready outputs.</p>
-          </article>
-          <article class="work-card">
-            <h3>Performance Analytics</h3>
-            <p class="meta">Variance and Root-Cause Analysis</p>
-            <p>Identified $50M+ EBITDA opportunity across seven portfolio companies through structured diagnostics.</p>
-          </article>
-          <article class="work-card">
-            <h3>Add-on Deal Support</h3>
-            <p class="meta">Modeling & Benchmarking</p>
-            <p>Supported two add-on acquisitions totaling approximately $45M with modeling and IC materials.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section cta">
-      <div class="container narrow">
-        <h2>Open to Portfolio Monitoring & Analytics Opportunities</h2>
-        <p>Actively exploring full-time roles in private credit portfolio analytics, portfolio operations, and FP&A.</p>
-        <a class="btn btn-dark" href="mailto:ramraj_sharma@kenanflagler.unc.edu">Get in Touch</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <p>© 2026 Ramraj Sharma</p>
-      <div class="footer-links">
-        <a href="https://www.linkedin.com/in/ramraj-ronil-sharma" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:ramraj_sharma@kenanflagler.unc.edu"><i class="fas fa-envelope"></i></a>
-        <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
