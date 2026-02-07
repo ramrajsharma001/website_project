@@ -291,6 +291,66 @@ a:hover {
 }
 
 /* ============================
+   SKILLS & TOOLS
+   ============================ */
+.skills-tools {
+    padding: 3rem 2rem;
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.skills-intro {
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.9rem;
+}
+
+.skill-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1rem 0.8rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    border-color: #aeb6be;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.skill-logo-wrap {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.65rem;
+    background-color: #fff;
+}
+
+.skill-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.skill-name {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* ============================
    RESEARCH HIGHLIGHTS
    ============================ */
 .research-highlights {
